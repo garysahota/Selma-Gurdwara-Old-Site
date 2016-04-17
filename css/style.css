@@ -23,6 +23,19 @@ footer.page-footer {
 	overflow: hidden;
 }
 
+.parallax-container {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-image: url('../img/banner-home.png');
+	overflow: hidden;
+	height: 300px;
+}
+
 .center-text {
 	text-align: center;
 }
@@ -34,6 +47,10 @@ footer.page-footer {
 .logo-css {
 	padding-top: 5%;
 	max-height: 55px;
+}
+
+.section {
+	width: 100%;
 }
 
 /* Google Calendar Embedded CSS */
